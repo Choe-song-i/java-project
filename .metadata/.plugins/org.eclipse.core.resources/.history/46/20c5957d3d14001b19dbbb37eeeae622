@@ -1,0 +1,10 @@
+public class FirstHello{ 
+	public static void main (String[] args) { 
+float f1 = 1F; //A. 
+float f2 = 1.0;//B. 
+float f3 = '1'; //C. 
+float f4 = "1"; //D. 
+float f5 = 1.0d; //E. 
+		  }
+		}    
+		  

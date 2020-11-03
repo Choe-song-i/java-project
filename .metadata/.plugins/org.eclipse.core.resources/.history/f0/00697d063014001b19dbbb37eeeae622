@@ -1,0 +1,28 @@
+/*증감(증가/감소)연산자 종류)
+ * 1. 1씩증가: i++(나중에 1증가=>후행증가), ++i(먼저 1증가=>선행증가)
+ * 2. 2씩증가: i=+2=> 이것을 줄여서 i+=2
+ * 3. 1씩감소: i--(나중에 1감소=>후행감소), --i(먼저 1감소=>선행감소)
+ * 4. 3씩감소: i-=3 =>줄여서 i-=(복합대입연산자)
+ */
+public class Ex18 {
+
+	public static void main(String[] args) {
+		int a=10, b=10;
+		System.out.println(++a);//먼저 1증가한 11
+		System.out.println(a);//11
+		
+		System.out.println(b++);//먼저 b변수가 값 10을 출력하고 나중에 1증가
+		System.out.println(b);//11
+		
+		a=b=10;
+		int c=0;
+		c=++a;//먼저1중가한 11이 저장
+		System.out.println("a : "+a+", c : "+c);//11 11
+		
+		c=b++;//먼저 b변수의 값을 c변수에 저장한 다음 나중에 1증가
+		System.out.println("c : "+c+", b : "+b);//10 11
+		
+
+	}
+
+}

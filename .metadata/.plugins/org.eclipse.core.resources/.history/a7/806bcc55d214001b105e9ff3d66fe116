@@ -1,0 +1,25 @@
+
+public class Ex2_03 {
+
+	public static void main(String[] args) {
+		int a=Integer.parseInt("5");
+		int b=Integer.parseInt("10");
+		int max=0;
+		int min=0;
+		
+		if(a>b) {
+			max=a;
+			min=b;
+		
+		}else {
+			max=b;
+			min=a;
+			
+		}
+		System.out.println(" 최대값 ="+max);
+		System.out.println(" 최소값 ="+min);
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		/*자바의 실수 숫자 자료형 예약어 종류)
+		 * 1.float :  4바이트 크기, 값뒤에 접미사 f(F)가 붙는다.
+		 * 2.double : 8바이트, 값 뒤에 접미사 d(D)가 붙는다. 일반적으로  D는 생략한다.
+		 */
+		float a=23.6f;
+		double b=2.36;
+		
+		System.out.println(a);
+		System.out.println(b);
+		/*자바의 단일문자 자료형 )
+		 * char 단 하나의 문자만 작은 따움표로 감싸고 저장되는 값은 십진수 정수로 저장됨.
+		 */
+
+	}
+
+}

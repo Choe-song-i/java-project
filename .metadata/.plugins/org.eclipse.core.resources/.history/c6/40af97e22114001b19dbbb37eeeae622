@@ -1,0 +1,12 @@
+
+public class Ex17 {
+
+	public static void main(String[] args) {
+	int a=29;
+	String s="몰라";
+	s=(a>=10 && a>=19)?"10대":"10아님";
+	System.out.println(a+"=>"+s);
+
+	}
+
+}

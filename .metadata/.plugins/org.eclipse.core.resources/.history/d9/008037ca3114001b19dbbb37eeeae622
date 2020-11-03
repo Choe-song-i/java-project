@@ -1,0 +1,13 @@
+
+public class Ex19 {
+
+	public static void main(String[] args) {
+		int a=1000000, b=2000000;
+		long c=a*b;
+		System.out.println(c);
+/*문제)곱셈 연산 결과값이 int범위를 벗어나서 엉뚱한 값 -
+ * 
+ */
+	}
+
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class FirstHello{ 
+	public static void main (String[] args) { 
+		Scanner scan=new Scanner(System.in);
+		System.out.println("숫자를 입력하시오");
+		String age01=scan.nextLine();//문자열로 입력받는다.
+		
+		
+		int age02=Integer.parseInt(age01);//parseInt()메서드에 의해서 정수숫자로 바꾼다.
+		
+		String age03=( age01 % 2=1)? "홀수이다.":"짝수이다.";
+		 System.out.println(age01+"숫자는"+age03); 
+		  }
+		}    
+		  

@@ -1,0 +1,11 @@
+
+public class FirstHello {
+
+	public void main(String[] args) {
+	System.out.println("환영합니다. First Hello Java!!");	
+	/*한줄이상 주석문 기호.System.out은 모니터 출력장치와 연결됨.
+	 * print는 출력의미, ln은 줄바꿈, ;(세미콜론)은 한문장 끝
+	 */
+	}
+
+}

@@ -1,0 +1,29 @@
+
+public class Ex20 {
+
+	public static void main(String[] args) {
+		int a=10;
+		int b=4;
+		
+		System.out.printf("%d + %d= %d\n",a,b,a+b);
+		//%d출력형태는 십진수 정수, \n은 줄 바꿈
+		System.out.printf("%d - %d= %d\n",a,b,a-b);
+		System.out.printf("%d * %d= %d\n",a,b,a*b);
+		System.out.printf("%d / %d= %d\n",a,b,a/b);
+		//정수 숫자를 나눗셈하면 몫만 구함.
+		System.out.printf("%d %% %d= %d\n",a,b,a%b);
+		System.out.println("=====================");
+		
+		byte c=10,d=30;
+		int re=(int)(c*d);
+		System.out.printf("re : "+re);
+		/*문제)값을 범위를 벗어난 44가 출력된다. 맞는 값이 출력되도록 수정하고 값을 범위를 벗어
+		 * 난 이유에 대해서 기술한다.(주석문으로 처리)
+		 */
+		
+		//byte 범위는 -128~127이다. c*d의 답은 byte의 범위를 넘는다. 
+		//답을 담을수 있는 int로 형변환 해야 한다.
+		
+	}
+
+}

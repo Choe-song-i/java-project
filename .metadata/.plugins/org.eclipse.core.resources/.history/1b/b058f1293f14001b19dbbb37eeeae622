@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class FirstHello{ 
+	public static void main (String[] args) { 
+		System.out.println("숫자를 입력하시오");
+		Scanner scan=new Scanner(System.in);
+		String n01=scan.nextLine();//숫자 입력받는다.
+		
+		
+		int n02=Integer.parseInt(n01);//parseInt()메서드에 의해서 정수숫자로 바꾼다.
+		
+		String n03=( 1 == n02%1 )? "홀수이다.":"짝수이다.";
+		 System.out.println(n01+"숫자는"+n03);
+		  }
+		}    
+		  

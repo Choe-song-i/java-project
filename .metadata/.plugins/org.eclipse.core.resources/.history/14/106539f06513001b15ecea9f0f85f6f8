@@ -1,0 +1,8 @@
+public class FirstHello{ 
+	public static void main (String[] args) { 
+		byte b = 127; 
+		byte c = 126; 
+		byte d =b+c; 
+		  }
+		}    
+		  

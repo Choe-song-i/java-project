@@ -1,0 +1,19 @@
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		char x='c';
+		System.out.println("x : "+x);
+		
+		String y="ab";//문자열  String  참조타입은 큰따움표 표현
+		System.out.println("y: "+y);
+
+		String z="a";
+		System.out.println("z: "+z);
+		
+		System.out.println(7+7+"");//14
+		System.out.println(""+7+7);//77
+		
+	}
+
+}
